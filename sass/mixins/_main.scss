@@ -1,0 +1,305 @@
+
+.clearfix:before,.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1; /*For IE 6&7 only*/
+}
+
+
+.EZcareers-header {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  padding: 26px 0 10px 0;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+
+  &.sticky {
+    position: fixed;
+    top: 0;
+    background: #4A4A4A;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.3);
+    padding: 10px 0 10px 0;
+  }
+
+  .EZcareers-logo {
+    display: inline-block;
+
+    a.EZlogo {
+      display: inline-block;
+      width: 134px;
+      height: 55px;
+      background: url("../img/logo.png")no-repeat center; 
+      margin-left: 15px;
+    }
+    h1 {
+      float: right;
+      color: #FFF;
+      font-size: 1.5em;
+      font-weight: 400;
+      padding-left: 15px;
+      border-left: 1px solid #FFF;
+      margin: 23px 0 0 18px;
+    }
+  }
+
+  nav {
+    position: relative;
+
+    >ul {
+      float: right;
+      margin-top: 25px;
+      // text-transform: uppercase;  //強制英文大寫
+
+      li {
+        display: block;
+        float: left;
+        margin-right: 2em;
+
+        a {
+          color: #E2E2E2;
+          font-size: 1.125em;
+
+        }
+
+        a:hover {
+          color: #FFF;
+        }
+
+      }
+    }
+  }
+}
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  position: relative;
+  
+  .head-banner {
+      width: 100%;
+      height: 600px;
+      display: table;
+      background: #4A4A4A url("../img/EZcareers-banner.jpg")no-repeat center top;
+      background-size: cover;
+
+      .top-title {
+        display: table-cell;
+        overflow: hidden;
+        position: relative;
+        vertical-align: middle;
+        width: 1000px;
+        z-index: 2;
+        text-align: center;
+        color: #FF752B;
+        font-weight: 300;
+        font-family: "Raleway";
+        font-size: 1.5em;
+
+        h2 {
+          fill: url(#p-fire);
+          font-size: 4.5em;
+          text-shadow: 2px 3px 2px #000;
+          padding: 20px 0 10px 30px;
+          color: #FF752B;
+        }
+
+        small {
+          margin-top: 200px;
+          display: block;
+          color: #FF752B;
+          font-family: "Raleway";
+
+        }
+
+        span {
+          color: #ccc;
+          font-size: 1.125em;
+          display: block;
+          margin-top: 5px;
+          font-family: 'Raleway';
+        }
+      }
+  }
+
+  main {
+    margin-bottom: 50px;
+
+    #section-01,#section-02 { 
+      padding: 3em 0;
+        
+        h2 {
+          font-size: 1.5em;
+          color: #4A4A4A;
+          text-align: center;
+          margin-bottom: 50px;
+        }
+
+        article {
+
+          h3 {
+            font-size: 1em;
+            color: #5a5a5a;
+            font-weight: 500;
+            margin-bottom: 10px;
+          }
+
+          p {
+            padding-bottom: 20px;
+
+          }
+
+        }
+    }
+
+    #section-02 {
+
+      ul.jobs-list {
+        margin:10px 0;
+
+        > li {
+          position: relative;
+          margin-bottom: 1em;
+          border: 1px solid #979797;
+          border-radius: 5px;
+          padding: 20px 0 20px 25px;
+          letter-spacing: 1px;
+          cursor: pointer;
+
+          &:before {
+            -webkit-transition: all ease-in-out 0.3s;
+            -moz-transition: all ease-in-out 0.3s;
+            transition: all ease-in-out 0.3s;
+            position: absolute;
+            right: 10px;
+            font-size: 2.2em;
+            top: 15px;
+          }
+
+          &.gray-bg {
+          background: #F4F4F4;
+          
+          }
+          
+          > h3 {
+            font-size: 1.5em;
+            font-weight: 300;
+            color: #777;
+            display: block;
+            
+          }
+          p {
+            display: none;
+            margin: 20px 0 10px;
+            line-height: 25px;
+            font-size: 1em;
+            color: #777;
+            font-weight: 300;
+          }
+
+        }
+      }
+    }
+  }
+
+  a.join-btn {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 3px solid #5a5a5a;;
+    padding: 15px 30px;
+    color: #5a5a5a;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  a.join-btn:hover {
+    background: #5a5a5a;
+    color: #fff;
+  }
+
+  footer {
+    background: #F4F4F4;
+    width: 100%;
+    padding: 30px 0 40px;
+    text-align: center;
+
+    ul.foot-nav {
+      margin-bottom: 20px;
+      li {
+        position: relative;
+        display: inline-block;
+        margin-right:15px;
+        color: #4A4A4A;
+        -webkit-transition: all ease-in-out 0.3s;
+        -moz-transition: all ease-in-out 0.3s;
+        transition: all ease-in-out 0.3s;
+
+        &:before {
+          margin-top: -6px;
+          font-size: 18px;
+          display: inline-block;
+          position: absolute;
+          top: 6px;
+          left: 0;
+
+        }
+
+        &:hover, &:hover a {
+            color: #FF752B;
+        }
+
+        a {
+          color: #4A4A4A;
+          font-size: 0.875em;
+          padding-left:20px;
+          margin-top: -2px;
+
+        }
+      }
+    }
+
+    small.copyright {
+      font-size: 0.875em;
+      font-family: 'Raleway';
+      color: #777;
+
+    }
+  }
+}
+
+.text {
+  fill: url(#p-fire);
+  // stroke: #330000;
+  stroke-width: 8;
+  stroke-opacity: .5;
+  font-size: 72px;
+  font-weight: 700;
+  font-family: "Noto Sans T Chinese","Noto Sans TC","Microsoft JhengHei",helvetica,sans-serif;
+}
+
+svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,465 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 7, ../sass/mixins/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Noto Sans T Chinese","Noto Sans TC","Microsoft JhengHei",helvetica,sans-serif;
+  vertical-align: baseline;
+  color: #9B9B9B;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 19, ../sass/mixins/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 23, ../sass/mixins/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 27, ../sass/mixins/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 31, ../sass/mixins/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 36, ../sass/mixins/_reset.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* line 42, ../sass/mixins/_reset.scss */
+a {
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  color: #1875d1;
+  text-decoration: none;
+}
+
+/* line 50, ../sass/mixins/_reset.scss */
+::selection {
+  background: #4A4A4A;
+  color: #fff;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Raleway Light"), local("Raleway-Light"), url(https://fonts.gstatic.com/s/raleway/v11/ZKwULyCG95tk6mOqHQfRBAsYbbCjybiHxArTLjt7FRU.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Raleway Light"), local("Raleway-Light"), url(https://fonts.gstatic.com/s/raleway/v11/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Raleway"), local("Raleway-Regular"), url(https://fonts.gstatic.com/s/raleway/v11/YZaO6llzOP57DpTBv2GnyFKPGs1ZzpMvnHX-7fPOuAc.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Raleway"), local("Raleway-Regular"), url(https://fonts.gstatic.com/s/raleway/v11/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/*
+* Noto Sans TC (Chinese_traditional) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff2) format("woff2"), url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff) format("woff"), url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.otf) format("opentype");
+}
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff2) format("woff2"), url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff) format("woff"), url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.otf) format("opentype");
+}
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format("woff2"), url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format("woff"), url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format("opentype");
+}
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff2) format("woff2"), url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff) format("woff"), url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.otf) format("opentype");
+}
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff2) format("woff2"), url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff) format("woff"), url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.otf) format("opentype");
+}
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff2) format("woff2"), url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff) format("woff"), url(https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.otf) format("opentype");
+}
+@font-face {
+  font-family: "untitled-font-2";
+  src: url("../fonts/untitled-font-2.eot");
+  src: url("../fonts/untitled-font-2.eot?#iefix") format("embedded-opentype"), url("../fonts/untitled-font-2.woff") format("woff"), url("../fonts/untitled-font-2.ttf") format("truetype"), url("../fonts/untitled-font-2.svg#untitled-font-2") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 98, ../sass/mixins/_font.scss */
+[data-icon]:before {
+  font-family: "untitled-font-2" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 111, ../sass/mixins/_font.scss */
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-2" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 124, ../sass/mixins/_font.scss */
+.icon-desktop:before {
+  content: "\63";
+}
+
+/* line 127, ../sass/mixins/_font.scss */
+.icon-facebook-square:before {
+  content: "\61";
+}
+
+/* line 130, ../sass/mixins/_font.scss */
+.icon-graph:before {
+  content: "\62";
+}
+
+/* line 133, ../sass/mixins/_font.scss */
+.icon-megaphone:before {
+  content: "\64";
+}
+
+/* line 136, ../sass/mixins/_font.scss */
+.icon-mobile:before {
+  content: "\65";
+}
+
+/* line 139, ../sass/mixins/_font.scss */
+.icon-android-add:before {
+  content: "\68";
+}
+
+/* line 142, ../sass/mixins/_font.scss */
+.icon-android-remove:before {
+  content: "\69";
+}
+
+/* line 2, ../sass/mixins/_main.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 6, ../sass/mixins/_main.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 9, ../sass/mixins/_main.scss */
+.clearfix {
+  *zoom: 1;
+  /*For IE 6&7 only*/
+}
+
+/* line 14, ../sass/mixins/_main.scss */
+.EZcareers-header {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  padding: 26px 0 10px 0;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+/* line 23, ../sass/mixins/_main.scss */
+.EZcareers-header.sticky {
+  position: fixed;
+  top: 0;
+  background: #4A4A4A;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  padding: 10px 0 10px 0;
+}
+/* line 31, ../sass/mixins/_main.scss */
+.EZcareers-header .EZcareers-logo {
+  display: inline-block;
+}
+/* line 34, ../sass/mixins/_main.scss */
+.EZcareers-header .EZcareers-logo a.EZlogo {
+  display: inline-block;
+  width: 134px;
+  height: 55px;
+  background: url("../img/logo.png") no-repeat center;
+  margin-left: 15px;
+}
+/* line 41, ../sass/mixins/_main.scss */
+.EZcareers-header .EZcareers-logo h1 {
+  float: right;
+  color: #FFF;
+  font-size: 1.5em;
+  font-weight: 400;
+  padding-left: 15px;
+  border-left: 1px solid #FFF;
+  margin: 23px 0 0 18px;
+}
+/* line 52, ../sass/mixins/_main.scss */
+.EZcareers-header nav {
+  position: relative;
+}
+/* line 55, ../sass/mixins/_main.scss */
+.EZcareers-header nav > ul {
+  float: right;
+  margin-top: 25px;
+}
+/* line 60, ../sass/mixins/_main.scss */
+.EZcareers-header nav > ul li {
+  display: block;
+  float: left;
+  margin-right: 2em;
+}
+/* line 65, ../sass/mixins/_main.scss */
+.EZcareers-header nav > ul li a {
+  color: #E2E2E2;
+  font-size: 1.125em;
+}
+/* line 71, ../sass/mixins/_main.scss */
+.EZcareers-header nav > ul li a:hover {
+  color: #FFF;
+}
+
+/* line 80, ../sass/mixins/_main.scss */
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 85, ../sass/mixins/_main.scss */
+.wrapper {
+  position: relative;
+}
+/* line 88, ../sass/mixins/_main.scss */
+.wrapper .head-banner {
+  width: 100%;
+  height: 600px;
+  display: table;
+  background: #4A4A4A url("../img/EZcareers-banner.jpg") no-repeat center top;
+  background-size: cover;
+}
+/* line 95, ../sass/mixins/_main.scss */
+.wrapper .head-banner .top-title {
+  display: table-cell;
+  overflow: hidden;
+  position: relative;
+  vertical-align: middle;
+  width: 1000px;
+  z-index: 2;
+  text-align: center;
+  color: #FF752B;
+  font-weight: 300;
+  font-family: "Raleway";
+  font-size: 1.5em;
+}
+/* line 108, ../sass/mixins/_main.scss */
+.wrapper .head-banner .top-title h2 {
+  fill: url(#p-fire);
+  font-size: 4.5em;
+  text-shadow: 2px 3px 2px #000;
+  padding: 20px 0 10px 30px;
+  color: #FF752B;
+}
+/* line 116, ../sass/mixins/_main.scss */
+.wrapper .head-banner .top-title span {
+  color: #ccc;
+  font-size: 1.125em;
+  display: block;
+  margin-top: 5px;
+  font-family: 'Raleway';
+}
+/* line 126, ../sass/mixins/_main.scss */
+.wrapper main {
+  margin-bottom: 50px;
+}
+/* line 129, ../sass/mixins/_main.scss */
+.wrapper main #section-01, .wrapper main #section-02 {
+  padding: 3em 0;
+}
+/* line 132, ../sass/mixins/_main.scss */
+.wrapper main #section-01 h2, .wrapper main #section-02 h2 {
+  font-size: 1.5em;
+  color: #4A4A4A;
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* line 141, ../sass/mixins/_main.scss */
+.wrapper main #section-01 article h3, .wrapper main #section-02 article h3 {
+  font-size: 1em;
+  color: #5a5a5a;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+/* line 148, ../sass/mixins/_main.scss */
+.wrapper main #section-01 article p, .wrapper main #section-02 article p {
+  padding-bottom: 20px;
+}
+/* line 158, ../sass/mixins/_main.scss */
+.wrapper main #section-02 ul.jobs-list {
+  margin: 10px 0;
+}
+/* line 161, ../sass/mixins/_main.scss */
+.wrapper main #section-02 ul.jobs-list > li {
+  position: relative;
+  margin-bottom: 1em;
+  border: 1px solid #979797;
+  border-radius: 5px;
+  padding: 20px 0 20px 25px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+/* line 170, ../sass/mixins/_main.scss */
+.wrapper main #section-02 ul.jobs-list > li:before {
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  position: absolute;
+  right: 10px;
+  font-size: 2.2em;
+  top: 15px;
+}
+/* line 180, ../sass/mixins/_main.scss */
+.wrapper main #section-02 ul.jobs-list > li.gray-bg {
+  background: #F4F4F4;
+}
+/* line 185, ../sass/mixins/_main.scss */
+.wrapper main #section-02 ul.jobs-list > li > h3 {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #777;
+  display: block;
+}
+/* line 192, ../sass/mixins/_main.scss */
+.wrapper main #section-02 ul.jobs-list > li p {
+  display: none;
+  margin: 20px 0 10px;
+  line-height: 25px;
+  font-size: 1em;
+  color: #777;
+  font-weight: 300;
+}
+/* line 206, ../sass/mixins/_main.scss */
+.wrapper a.join-btn {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 3px solid #5a5a5a;
+  padding: 15px 30px;
+  color: #5a5a5a;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+/* line 218, ../sass/mixins/_main.scss */
+.wrapper a.join-btn:hover {
+  background: #5a5a5a;
+  color: #fff;
+}
+/* line 223, ../sass/mixins/_main.scss */
+.wrapper footer {
+  background: #F4F4F4;
+  width: 100%;
+  padding: 30px 0 40px;
+  text-align: center;
+}
+/* line 229, ../sass/mixins/_main.scss */
+.wrapper footer ul.foot-nav {
+  margin-bottom: 20px;
+}
+/* line 231, ../sass/mixins/_main.scss */
+.wrapper footer ul.foot-nav li {
+  position: relative;
+  display: inline-block;
+  margin-right: 15px;
+  color: #4A4A4A;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+/* line 240, ../sass/mixins/_main.scss */
+.wrapper footer ul.foot-nav li:before {
+  margin-top: -6px;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+/* line 250, ../sass/mixins/_main.scss */
+.wrapper footer ul.foot-nav li:hover, .wrapper footer ul.foot-nav li:hover a {
+  color: #FF752B;
+}
+/* line 254, ../sass/mixins/_main.scss */
+.wrapper footer ul.foot-nav li a {
+  color: #4A4A4A;
+  font-size: 0.875em;
+  padding-left: 20px;
+  margin-top: -2px;
+}
+/* line 264, ../sass/mixins/_main.scss */
+.wrapper footer small.copyright {
+  font-size: 0.875em;
+  font-family: 'Raleway';
+  color: #777;
+}
