@@ -479,9 +479,10 @@ a {
   font-size: 72px;
   font-weight: 700;
   font-family: "Noto Sans T Chinese","Noto Sans TC","Microsoft JhengHei",helvetica,sans-serif;
+  text-shadow: 2px 2px 10px;
 }
 
-/* line 291, ../sass/mixins/_main.scss */
+/* line 292, ../sass/mixins/_main.scss */
 svg {
   position: absolute;
   width: 100%;
