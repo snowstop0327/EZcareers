@@ -406,28 +406,34 @@ a {
   letter-spacing: 1px;
   cursor: pointer;
 }
-/* line 210, ../sass/mixins/_main.scss */
-.wrapper main #section-02 ul.jobs-list > li:before {
+/* line 220, ../sass/mixins/_main.scss */
+.wrapper main #section-02 ul.jobs-list > li i:before {
   -webkit-transition: all ease-in-out 0.3s;
   -moz-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
   position: absolute;
   right: 10px;
-  font-size: 2.2em;
+  font-size: 200%;
   top: 15px;
+  cursor: pointer;
 }
-/* line 220, ../sass/mixins/_main.scss */
+/* line 231, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li.gray-bg {
   background: #F4F4F4;
 }
-/* line 225, ../sass/mixins/_main.scss */
+/* line 233, ../sass/mixins/_main.scss */
+.wrapper main #section-02 ul.jobs-list > li.gray-bg h3 {
+  color: #4A4A4A;
+  font-weight: 500;
+}
+/* line 240, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li > h3 {
   font-size: 1.5em;
   font-weight: 300;
   color: #777;
   display: block;
 }
-/* line 232, ../sass/mixins/_main.scss */
+/* line 247, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li p {
   display: none;
   margin: 20px 0 10px;
@@ -436,7 +442,7 @@ a {
   color: #777;
   font-weight: 300;
 }
-/* line 246, ../sass/mixins/_main.scss */
+/* line 261, ../sass/mixins/_main.scss */
 .wrapper a.join-btn {
   display: block;
   width: 150px;
@@ -449,23 +455,23 @@ a {
   font-weight: bold;
   font-size: 1.5em;
 }
-/* line 258, ../sass/mixins/_main.scss */
+/* line 273, ../sass/mixins/_main.scss */
 .wrapper a.join-btn:hover {
   background: #5a5a5a;
   color: #fff;
 }
-/* line 263, ../sass/mixins/_main.scss */
+/* line 278, ../sass/mixins/_main.scss */
 .wrapper footer {
   background: #F4F4F4;
   width: 100%;
   padding: 30px 0 40px;
   text-align: center;
 }
-/* line 269, ../sass/mixins/_main.scss */
+/* line 284, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav {
   margin-bottom: 20px;
 }
-/* line 271, ../sass/mixins/_main.scss */
+/* line 286, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li {
   position: relative;
   display: inline-block;
@@ -475,7 +481,7 @@ a {
   -moz-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 280, ../sass/mixins/_main.scss */
+/* line 295, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li:before {
   margin-top: -6px;
   font-size: 18px;
@@ -484,18 +490,18 @@ a {
   top: 6px;
   left: 0;
 }
-/* line 290, ../sass/mixins/_main.scss */
+/* line 305, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li:hover, .wrapper footer ul.foot-nav li:hover a {
   color: #FF752B;
 }
-/* line 294, ../sass/mixins/_main.scss */
+/* line 309, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li a {
   color: #4A4A4A;
   font-size: 0.875em;
   padding-left: 20px;
   margin-top: -2px;
 }
-/* line 304, ../sass/mixins/_main.scss */
+/* line 319, ../sass/mixins/_main.scss */
 .wrapper footer small.copyright {
   font-size: 0.875em;
   font-family: 'Raleway';
