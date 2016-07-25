@@ -111,6 +111,26 @@ $(function() {
     });
 });
 
+/*
+ * go-top
+ */
+
+$(function () {
+    //Check to see if the window is top if not then display button
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 1) {
+            $('#goTop').fadeIn('fast');
+        } else {
+            $('#goTop').fadeOut('fast');
+        }
+    });
+    $("#goTop").click(function () {
+        $("html,body").animate({ scrollTop: 0 }, 800);
+        //$("html,body").animate({scrollTop:0},900,"easeOutBounce");
+        return false;
+    });
+});
+
 
 
 
