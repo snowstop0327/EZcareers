@@ -529,6 +529,7 @@ a {
 #goTop {
   color: #4A4A4A;
   font-size: 1.2em;
+  font-weight: 400;
   display: none;
   opacity: 0.8;
   position: fixed;
@@ -543,7 +544,7 @@ a {
   -moz-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 358, ../sass/mixins/_main.scss */
+/* line 359, ../sass/mixins/_main.scss */
 #goTop:hover {
   background: #4A4A4A;
   color: #FFF;
