@@ -608,15 +608,9 @@ a {
   .EZcareers-header nav > ul {
     margin-top: 5px;
   }
-
-  /* line 94, ../sass/mixins/_mediaQueries.scss */
-  .wrapper .head-banner {
-    height: 35vh;
-    font-size: 75%;
-  }
 }
 @media screen and (min-width: 1024px) {
-  /* line 106, ../sass/mixins/_mediaQueries.scss */
+  /* line 104, ../sass/mixins/_mediaQueries.scss */
   .EZcareers-header nav > ul {
     display: block !important;
   }
