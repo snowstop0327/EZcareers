@@ -95,11 +95,15 @@
 
 		}
 		main {
-			#section-02 {
-				margin: 0 -1em;
+
+			#section-01,#section-02 { 
 				h2 {
 					margin-bottom: 15px;
 				}
+			}
+			#section-02 {
+				margin: 0 -1em;
+				
 				ul.jobs-list {
 					> li {
 						padding: 10px;
@@ -138,3 +142,4 @@
 		}
 	}
 }
+
