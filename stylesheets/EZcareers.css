@@ -563,7 +563,7 @@ a {
 
   /* line 42, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner {
-    height: 50vh;
+    height: 55vh;
     font-size: 75%;
   }
   /* line 46, ../sass/mixins/_mediaQueries.scss */
@@ -586,7 +586,7 @@ a {
   }
   /* line 69, ../sass/mixins/_mediaQueries.scss */
   .EZcareers-header.sticky {
-    padding: 10px 0 0;
+    padding: 0;
   }
   /* line 72, ../sass/mixins/_mediaQueries.scss */
   .EZcareers-header .EZcareers-logo {
