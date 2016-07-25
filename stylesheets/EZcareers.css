@@ -525,7 +525,7 @@ a {
   color: #777;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
   /* line 2, ../sass/mixins/_mediaQueries.scss */
   .content {
     padding: 0 1em;
@@ -638,7 +638,7 @@ a {
     padding: 0;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1001px) {
   /* line 135, ../sass/mixins/_mediaQueries.scss */
   .EZcareers-header nav > ul {
     display: block !important;
