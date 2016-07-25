@@ -83,7 +83,7 @@ $(function() {
             // 檢查視窗捲動程度、
             // 若超過header的預設位置則附加類別、
             // 反之則刪除
-            if ($window.scrollTop() > headerOffsetTop) {
+            if ($window.scrollTop() > 1) {
                 $fire.hide();
                 $('svg').show();
             } else {

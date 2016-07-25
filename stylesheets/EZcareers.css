@@ -625,22 +625,21 @@ a {
   /* line 108, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li i:before {
     font-size: 1.5em;
-    top: 8px;
-    background: #FFF;
+    top: 9px;
   }
-  /* line 115, ../sass/mixins/_mediaQueries.scss */
-  .wrapper main #section-02 ul.jobs-list > li.gray-bg i:before {
-    background: #F4F4F4;
-  }
-  /* line 120, ../sass/mixins/_mediaQueries.scss */
+  /* line 113, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li > h3 {
     font-size: 1.2em;
     width: 90%;
     line-height: 1.5em;
   }
+  /* line 119, ../sass/mixins/_mediaQueries.scss */
+  .wrapper main #section-02 ul.jobs-list > li p {
+    padding: 0;
+  }
 }
 @media screen and (min-width: 1024px) {
-  /* line 138, ../sass/mixins/_mediaQueries.scss */
+  /* line 135, ../sass/mixins/_mediaQueries.scss */
   .EZcareers-header nav > ul {
     display: block !important;
   }
