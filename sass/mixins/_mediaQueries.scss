@@ -94,6 +94,40 @@
 		.head-banner {
 
 		}
+		main {
+			#section-02 {
+				margin: 0 -1em;
+				h2 {
+					margin-bottom: 15px;
+				}
+				ul.jobs-list {
+					> li {
+						padding: 10px;
+						overflow: hidden;
+
+						i:before {
+							font-size: 1.5em;
+							top:8px;
+							background: #FFF;
+						}
+
+						&.gray-bg {
+							i:before {
+								background: #F4F4F4;
+							}
+						}
+
+						> h3 {
+							font-size: 1.2em;
+							width: 90%;
+							line-height: 1.5em;
+						}
+
+					}
+
+				}
+			}
+		}
 	}
 
 }
