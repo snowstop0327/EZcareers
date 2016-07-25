@@ -292,19 +292,20 @@ a {
   height: 40px;
   overflow: hidden;
   margin: 10px;
+  color: #ccc;
 }
 
-/* line 90, ../sass/mixins/_main.scss */
+/* line 91, ../sass/mixins/_main.scss */
 .content {
   max-width: 1000px;
   margin: 0 auto;
 }
 
-/* line 95, ../sass/mixins/_main.scss */
+/* line 96, ../sass/mixins/_main.scss */
 .wrapper {
   position: relative;
 }
-/* line 98, ../sass/mixins/_main.scss */
+/* line 99, ../sass/mixins/_main.scss */
 .wrapper .head-banner {
   width: 100%;
   height: 600px;
@@ -312,7 +313,7 @@ a {
   background: #4A4A4A url("../img/EZcareers-banner.jpg") no-repeat center top;
   background-size: cover;
 }
-/* line 105, ../sass/mixins/_main.scss */
+/* line 106, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title {
   display: table-cell;
   overflow: hidden;
@@ -326,7 +327,7 @@ a {
   font-family: "Raleway";
   font-size: 1.5em;
 }
-/* line 118, ../sass/mixins/_main.scss */
+/* line 119, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title .text {
   fill: url(#p-fire);
   stroke-width: 8;
@@ -336,7 +337,7 @@ a {
   font-family: "Noto Sans T Chinese","Noto Sans TC","Microsoft JhengHei",helvetica,sans-serif;
   text-shadow: 2px 2px 10px;
 }
-/* line 129, ../sass/mixins/_main.scss */
+/* line 130, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title svg {
   position: absolute;
   width: 100%;
@@ -344,14 +345,14 @@ a {
   top: 0;
   left: 0;
 }
-/* line 135, ../sass/mixins/_main.scss */
+/* line 136, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title svg small {
   margin-top: 200px;
   display: block;
   color: #FF752B;
   font-family: "Raleway";
 }
-/* line 143, ../sass/mixins/_main.scss */
+/* line 144, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title svg span {
   color: #ccc;
   font-size: 1.125em;
@@ -359,7 +360,7 @@ a {
   margin-top: 5px;
   font-family: 'Raleway';
 }
-/* line 152, ../sass/mixins/_main.scss */
+/* line 153, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title h2 {
   fill: url(#p-fire);
   font-size: 4.5em;
@@ -367,12 +368,12 @@ a {
   padding: 20px 0 10px 30px;
   color: #FF752B;
 }
-/* line 160, ../sass/mixins/_main.scss */
+/* line 161, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title small {
   display: block;
   color: #FF752B;
 }
-/* line 166, ../sass/mixins/_main.scss */
+/* line 167, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title span {
   color: #ccc;
   font-size: 1.125em;
@@ -380,37 +381,37 @@ a {
   margin-top: 5px;
   font-family: 'Raleway';
 }
-/* line 176, ../sass/mixins/_main.scss */
+/* line 177, ../sass/mixins/_main.scss */
 .wrapper main {
   margin-bottom: 50px;
 }
-/* line 179, ../sass/mixins/_main.scss */
+/* line 180, ../sass/mixins/_main.scss */
 .wrapper main #section-01, .wrapper main #section-02 {
   padding: 3em 0;
 }
-/* line 182, ../sass/mixins/_main.scss */
+/* line 183, ../sass/mixins/_main.scss */
 .wrapper main #section-01 h2, .wrapper main #section-02 h2 {
   font-size: 1.5em;
   color: #4A4A4A;
   text-align: center;
   margin-bottom: 50px;
 }
-/* line 191, ../sass/mixins/_main.scss */
+/* line 192, ../sass/mixins/_main.scss */
 .wrapper main #section-01 article h3, .wrapper main #section-02 article h3 {
   font-size: 1em;
   color: #5a5a5a;
   font-weight: 500;
   margin-bottom: 10px;
 }
-/* line 198, ../sass/mixins/_main.scss */
+/* line 199, ../sass/mixins/_main.scss */
 .wrapper main #section-01 article p, .wrapper main #section-02 article p {
   padding-bottom: 20px;
 }
-/* line 208, ../sass/mixins/_main.scss */
+/* line 209, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list {
   margin: 10px 0;
 }
-/* line 211, ../sass/mixins/_main.scss */
+/* line 212, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li {
   position: relative;
   margin-bottom: 1em;
@@ -420,7 +421,7 @@ a {
   letter-spacing: 1px;
   cursor: pointer;
 }
-/* line 230, ../sass/mixins/_main.scss */
+/* line 231, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li i:before {
   -webkit-transition: all ease-in-out 0.3s;
   -moz-transition: all ease-in-out 0.3s;
@@ -431,23 +432,23 @@ a {
   top: 15px;
   cursor: pointer;
 }
-/* line 241, ../sass/mixins/_main.scss */
+/* line 242, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li.gray-bg {
   background: #F4F4F4;
 }
-/* line 243, ../sass/mixins/_main.scss */
+/* line 244, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li.gray-bg h3 {
   color: #4A4A4A;
   font-weight: 500;
 }
-/* line 250, ../sass/mixins/_main.scss */
+/* line 251, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li > h3 {
   font-size: 1.5em;
   font-weight: 300;
   color: #777;
   display: block;
 }
-/* line 257, ../sass/mixins/_main.scss */
+/* line 258, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li p {
   display: none;
   margin: 20px 0 10px;
@@ -457,7 +458,7 @@ a {
   font-weight: 300;
   padding-right: 20px;
 }
-/* line 272, ../sass/mixins/_main.scss */
+/* line 273, ../sass/mixins/_main.scss */
 .wrapper a.join-btn {
   display: block;
   width: 150px;
@@ -470,33 +471,34 @@ a {
   font-weight: bold;
   font-size: 1.5em;
 }
-/* line 284, ../sass/mixins/_main.scss */
+/* line 285, ../sass/mixins/_main.scss */
 .wrapper a.join-btn:hover {
   background: #5a5a5a;
   color: #fff;
 }
-/* line 289, ../sass/mixins/_main.scss */
+/* line 290, ../sass/mixins/_main.scss */
 .wrapper footer {
   background: #F4F4F4;
   width: 100%;
   padding: 30px 0 40px;
   text-align: center;
 }
-/* line 295, ../sass/mixins/_main.scss */
+/* line 296, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
-/* line 297, ../sass/mixins/_main.scss */
+/* line 298, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li {
   position: relative;
   display: inline-block;
   margin-right: 15px;
+  margin-bottom: 8px;
   color: #4A4A4A;
   -webkit-transition: all ease-in-out 0.3s;
   -moz-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 306, ../sass/mixins/_main.scss */
+/* line 308, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li:before {
   margin-top: -6px;
   font-size: 18px;
@@ -505,18 +507,18 @@ a {
   top: 6px;
   left: 0;
 }
-/* line 316, ../sass/mixins/_main.scss */
+/* line 318, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li:hover, .wrapper footer ul.foot-nav li:hover a {
   color: #FF752B;
 }
-/* line 320, ../sass/mixins/_main.scss */
+/* line 322, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li a {
   color: #4A4A4A;
   font-size: 0.875em;
   padding-left: 20px;
   margin-top: -2px;
 }
-/* line 330, ../sass/mixins/_main.scss */
+/* line 332, ../sass/mixins/_main.scss */
 .wrapper footer small.copyright {
   font-size: 0.875em;
   font-family: 'Raleway';
@@ -531,23 +533,91 @@ a {
 
   /* line 9, ../sass/mixins/_mediaQueries.scss */
   .EZcareers-header nav > ul {
+    width: 100%;
     display: none;
   }
-  /* line 12, ../sass/mixins/_mediaQueries.scss */
+  /* line 13, ../sass/mixins/_mediaQueries.scss */
+  .EZcareers-header nav > ul.active {
+    height: auto;
+  }
+  /* line 18, ../sass/mixins/_mediaQueries.scss */
+  .EZcareers-header nav > ul li {
+    float: none;
+    text-align: center;
+    background: #4A4A4A;
+    margin: 0;
+  }
+  /* line 24, ../sass/mixins/_mediaQueries.scss */
+  .EZcareers-header nav > ul li :hover {
+    background: #999;
+  }
+  /* line 28, ../sass/mixins/_mediaQueries.scss */
+  .EZcareers-header nav > ul li a {
+    display: block;
+    padding: 10px;
+  }
+  /* line 34, ../sass/mixins/_mediaQueries.scss */
   .EZcareers-header nav .mobile-nav-btn {
     display: inline-block;
   }
 
-  /* line 20, ../sass/mixins/_mediaQueries.scss */
+  /* line 42, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner {
-    height: 30vh;
+    height: 50vh;
+    font-size: 75%;
   }
-  /* line 23, ../sass/mixins/_mediaQueries.scss */
+  /* line 46, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title {
     width: 100%;
   }
-  /* line 26, ../sass/mixins/_mediaQueries.scss */
+  /* line 49, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title .text {
-    font-size: 4.5em;
+    font-size: 5em;
+  }
+  /* line 54, ../sass/mixins/_mediaQueries.scss */
+  .wrapper .head-banner .top-title h2 {
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 66, ../sass/mixins/_mediaQueries.scss */
+  .EZcareers-header {
+    padding: 15px 0 0;
+  }
+  /* line 69, ../sass/mixins/_mediaQueries.scss */
+  .EZcareers-header.sticky {
+    padding: 10px 0 0;
+  }
+  /* line 72, ../sass/mixins/_mediaQueries.scss */
+  .EZcareers-header .EZcareers-logo {
+    margin: 10px 0;
+  }
+  /* line 74, ../sass/mixins/_mediaQueries.scss */
+  .EZcareers-header .EZcareers-logo a.EZlogo {
+    width: 90px;
+    height: 35px;
+    background-size: contain;
+  }
+  /* line 79, ../sass/mixins/_mediaQueries.scss */
+  .EZcareers-header .EZcareers-logo h1 {
+    font-size: 1.2em;
+    margin: 10px 0 0 10px;
+    padding-left: 10px;
+  }
+  /* line 87, ../sass/mixins/_mediaQueries.scss */
+  .EZcareers-header nav > ul {
+    margin-top: 5px;
+  }
+
+  /* line 94, ../sass/mixins/_mediaQueries.scss */
+  .wrapper .head-banner {
+    height: 35vh;
+    font-size: 75%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 106, ../sass/mixins/_mediaQueries.scss */
+  .EZcareers-header nav > ul {
+    display: block !important;
   }
 }

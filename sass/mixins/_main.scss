@@ -82,6 +82,7 @@
       height: 40px;
       overflow: hidden;
       margin:10px;
+      color: #ccc;
 
     }
   }
@@ -293,11 +294,12 @@
     text-align: center;
 
     ul.foot-nav {
-      margin-bottom: 20px;
+      margin-bottom: 15px;
       li {
         position: relative;
         display: inline-block;
         margin-right:15px;
+        margin-bottom: 8px;
         color: #4A4A4A;
         -webkit-transition: all ease-in-out 0.3s;
         -moz-transition: all ease-in-out 0.3s;

@@ -7,7 +7,29 @@
 
 		nav {
 			> ul {
+				width: 100%;
 				display: none;
+
+				&.active {
+					height: auto;
+				}
+				
+
+				li {
+					float: none;
+					text-align: center;
+					background: #4A4A4A;
+					margin: 0;
+
+					:hover {
+						background: #999;
+					}
+
+					a {
+						display: block;
+						padding: 10px;
+					}
+				}
 			}
 			.mobile-nav-btn {
 				display: inline-block;
@@ -18,17 +40,72 @@
 	.wrapper {
 
 		.head-banner {
-			height: 30vh;
+			height: 50vh;
+			font-size: 75%;
 
 			.top-title {
 				width: 100%;
 
 				.text {
-					font-size: 4.5em;
+					font-size: 5em;
 
+				}
+
+				h2 {
+					font-size: 3em;
 				}
 			}
 		}
+
+
 	}
 	
+}
+
+@media screen and (max-width: 480px) {
+	.EZcareers-header {
+		padding: 15px 0 0;
+
+		&.sticky {
+			padding: 10px 0 0;
+		}
+		.EZcareers-logo {
+			margin: 10px 0;
+			a.EZlogo {
+				width: 90px;
+				height: 35px;
+				background-size: contain;
+			}
+			h1 {
+				font-size: 1.2em;
+				margin: 10px 0 0 10px;
+				padding-left: 10px; 
+			}
+		}
+
+		nav {
+			> ul {
+				margin-top: 5px;
+			}
+		}
+	}
+
+	.wrapper {
+		.head-banner {
+			height: 35vh;
+			font-size: 75%;
+
+		}
+	}
+
+}
+
+@media screen and (min-width: 1024px) {
+	.EZcareers-header {
+		nav {
+			> ul {
+				display: block !important;
+			}
+		}
+	}
 }
