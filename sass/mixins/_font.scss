@@ -121,6 +121,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 .icon-desktop:before {
   content: "\63";
 }
@@ -141,4 +142,7 @@
 }
 .icon-android-remove:before {
   content: "\69";
+}
+.icon-three-bars:before {
+  content: "\66";
 }

@@ -36,7 +36,7 @@
       width: 134px;
       height: 55px;
       background: url("../img/logo.png")no-repeat center; 
-      margin-left: 15px;
+      // margin-left: 15px;
     }
     h1 {
       float: right;
@@ -73,6 +73,16 @@
         }
 
       }
+    }
+    .mobile-nav-btn {
+      display: none;
+      font-size: 2.5em;
+      float: right;
+      width: 40px;
+      height: 40px;
+      overflow: hidden;
+      margin:10px;
+
     }
   }
 }
@@ -223,7 +233,7 @@
             transition: all ease-in-out 0.3s;
             position: absolute;
             right: 10px;
-            font-size: 200%;
+            font-size: 2.2em;
             top: 15px;
             cursor: pointer;
           }
@@ -251,6 +261,7 @@
             font-size: 1em;
             color: #777;
             font-weight: 300;
+            padding-right: 20px;
           }
 
         }
