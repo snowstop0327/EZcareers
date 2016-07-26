@@ -593,7 +593,7 @@ a {
 
   /* line 42, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner {
-    height: 55vh;
+    height: 400px;
   }
   /* line 46, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title {
@@ -646,50 +646,54 @@ a {
     margin-top: 5px;
   }
 
-  /* line 103, ../sass/mixins/_mediaQueries.scss */
+  /* line 101, ../sass/mixins/_mediaQueries.scss */
+  .wrapper .head-banner {
+    height: 350px;
+  }
+  /* line 104, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title .text {
     font-size: 3.5em;
   }
-  /* line 108, ../sass/mixins/_mediaQueries.scss */
+  /* line 109, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title #nn-title h2 {
     font-size: 2.5em;
     padding: 0 0 5px 20px;
   }
-  /* line 112, ../sass/mixins/_mediaQueries.scss */
+  /* line 113, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title #nn-title.down {
     margin-top: 85px;
   }
-  /* line 122, ../sass/mixins/_mediaQueries.scss */
+  /* line 123, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-01 h2, .wrapper main #section-02 h2 {
     margin-bottom: 15px;
   }
-  /* line 126, ../sass/mixins/_mediaQueries.scss */
+  /* line 127, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 {
     margin: 0 -1em;
   }
-  /* line 130, ../sass/mixins/_mediaQueries.scss */
+  /* line 131, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li {
     padding: 10px;
     overflow: hidden;
   }
-  /* line 134, ../sass/mixins/_mediaQueries.scss */
+  /* line 135, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li i:before {
     font-size: 1.5em;
     top: 9px;
   }
-  /* line 139, ../sass/mixins/_mediaQueries.scss */
+  /* line 140, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li > h3 {
     font-size: 1.2em;
     width: 90%;
     line-height: 1.5em;
   }
-  /* line 145, ../sass/mixins/_mediaQueries.scss */
+  /* line 146, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li p {
     padding: 0;
   }
 }
 @media screen and (min-width: 1001px) {
-  /* line 160, ../sass/mixins/_mediaQueries.scss */
+  /* line 161, ../sass/mixins/_mediaQueries.scss */
   .EZcareers-header nav > ul {
     display: block !important;
   }
