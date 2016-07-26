@@ -70,7 +70,7 @@ $(document).ready(function() {
 
 $(function() {
 
-    $('#nn-title').each(function() {
+    $('#nn-title > h2').each(function() {
 
         var $window = $(window), // 將window轉為jQuery物件
             $fire = $(this), // 將header轉為jQuery物件
@@ -85,10 +85,12 @@ $(function() {
             // 反之則刪除
             if ($window.scrollTop() > 1) {
                 $fire.hide();
-                $('svg').show();
+                $('#nn-title').addClass('down');
+                $('.top-title > svg').show();
             } else {
                 $fire.show();
-                $('svg').hide();
+                $('.top-title > svg').hide();
+                $('#nn-title').removeClass('down');
             }
         });
         // debugger;

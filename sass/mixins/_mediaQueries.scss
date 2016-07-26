@@ -41,19 +41,26 @@
 
 		.head-banner {
 			height: 55vh;
-			font-size: 75%;
+			
 
 			.top-title {
 				width: 100%;
 
 				.text {
-					font-size: 5em;
+					font-size: 3.5em;
 
 				}
 
-				h2 {
-					font-size: 3em;
-				}
+				#nn-title {
+					font-size: 80%;
+          &.down {
+            margin-top: 130px;
+
+          }
+          h2 {
+          	font-size: 6em;
+          }
+        }
 			}
 		}
 
@@ -92,6 +99,21 @@
 
 	.wrapper {
 		.head-banner {
+			.top-title {
+				.text {
+					font-size: 3.5em;
+
+				}
+				#nn-title {
+					h2 {
+						font-size: 2.5em;
+						padding: 0 0 5px 20px;
+					}
+					&.down {
+						margin-top: 85px;
+					}
+				}
+			} 
 
 		}
 		main {
