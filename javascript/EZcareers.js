@@ -6,7 +6,7 @@ $(document).ready(function() {
     $('.jobs-list > li').click(function(event) {
         // event.preventDefault();
         // $(this).siblings().find('p').slideUp();
-        $(this).find('p').slideToggle('fast');
+        $(this).find('article').slideToggle('fast');
         $(this).toggleClass('gray-bg');
         var $currIcon = $(this).find("i.the-btn");
         $currIcon.toggleClass('icon-android-remove icon-android-add');
