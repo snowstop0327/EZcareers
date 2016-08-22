@@ -57,6 +57,54 @@ a {
   color: #fff;
 }
 
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu"), url(https://fonts.gstatic.com/s/ubuntu/v9/BxfrwvhZBmVnDwajjdTQeH-_kf6ByYO6CLYdB4HQE-Y.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu"), url(https://fonts.gstatic.com/s/ubuntu/v9/rOHfGaogav5XpJHYhB_YZ3-_kf6ByYO6CLYdB4HQE-Y.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu"), url(https://fonts.gstatic.com/s/ubuntu/v9/zwDIfh8KEInP4WYoM7h0b3-_kf6ByYO6CLYdB4HQE-Y.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu"), url(https://fonts.gstatic.com/s/ubuntu/v9/BgwOR-U84B6EluzUITbpkH-_kf6ByYO6CLYdB4HQE-Y.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu"), url(https://fonts.gstatic.com/s/ubuntu/v9/Zcmru5bcP_p_TwCNg-F3DH-_kf6ByYO6CLYdB4HQE-Y.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu"), url(https://fonts.gstatic.com/s/ubuntu/v9/zvCUQcxqeoKhyOlbifSAaevvDin1pK8aKteLpeZ5c0A.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
 /* latin-ext */
 @font-face {
   font-family: 'Raleway';
@@ -135,7 +183,7 @@ a {
   font-weight: normal;
   font-style: normal;
 }
-/* line 98, ../sass/mixins/_font.scss */
+/* line 146, ../sass/mixins/_font.scss */
 [data-icon]:before {
   font-family: "untitled-font-2" !important;
   content: attr(data-icon);
@@ -149,7 +197,7 @@ a {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 111, ../sass/mixins/_font.scss */
+/* line 159, ../sass/mixins/_font.scss */
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
   font-family: "untitled-font-2" !important;
@@ -163,42 +211,42 @@ a {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 125, ../sass/mixins/_font.scss */
+/* line 173, ../sass/mixins/_font.scss */
 .icon-desktop:before {
   content: "\63";
 }
 
-/* line 128, ../sass/mixins/_font.scss */
+/* line 176, ../sass/mixins/_font.scss */
 .icon-facebook-square:before {
   content: "\61";
 }
 
-/* line 131, ../sass/mixins/_font.scss */
+/* line 179, ../sass/mixins/_font.scss */
 .icon-graph:before {
   content: "\62";
 }
 
-/* line 134, ../sass/mixins/_font.scss */
+/* line 182, ../sass/mixins/_font.scss */
 .icon-megaphone:before {
   content: "\64";
 }
 
-/* line 137, ../sass/mixins/_font.scss */
+/* line 185, ../sass/mixins/_font.scss */
 .icon-mobile:before {
   content: "\65";
 }
 
-/* line 140, ../sass/mixins/_font.scss */
+/* line 188, ../sass/mixins/_font.scss */
 .icon-android-add:before {
   content: "\68";
 }
 
-/* line 143, ../sass/mixins/_font.scss */
+/* line 191, ../sass/mixins/_font.scss */
 .icon-android-remove:before {
   content: "\69";
 }
 
-/* line 146, ../sass/mixins/_font.scss */
+/* line 194, ../sass/mixins/_font.scss */
 .icon-three-bars:before {
   content: "\66";
 }
@@ -336,7 +384,7 @@ a {
   text-align: center;
   color: #FF752B;
   font-weight: 300;
-  font-family: "Raleway";
+  font-family: "Ubuntu";
   font-size: 1.5em;
 }
 /* line 130, ../sass/mixins/_main.scss */
@@ -363,7 +411,7 @@ a {
   margin-top: 200px;
   display: block;
   color: #FF752B;
-  font-family: "Raleway";
+  font-family: "Ubuntu";
 }
 /* line 156, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title svg span {
@@ -371,7 +419,7 @@ a {
   font-size: 1.125em;
   display: block;
   margin-top: 5px;
-  font-family: 'Raleway';
+  font-family: 'Ubuntu';
 }
 /* line 165, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title h2 {
@@ -389,10 +437,10 @@ a {
 /* line 179, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title span {
   color: #ccc;
-  font-size: 1.125em;
+  font-size: 1.5em;
   display: block;
   margin-top: 5px;
-  font-family: 'Raleway';
+  font-family: 'Ubuntu';
 }
 /* line 188, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title #nn-title.down {
@@ -410,22 +458,23 @@ a {
 .wrapper main #section-01 h2, .wrapper main #section-02 h2 {
   font-size: 1.5em;
   color: #4A4A4A;
-  text-align: center;
   margin-bottom: 30px;
 }
-/* line 208, ../sass/mixins/_main.scss */
-.wrapper main #section-01 p, .wrapper main #section-02 p {
+/* line 212, ../sass/mixins/_main.scss */
+.wrapper main #section-01 ul {
   line-height: 30px;
+  font-size: 1.1em;
+  list-style: inherit;
 }
-/* line 215, ../sass/mixins/_main.scss */
-.wrapper main #section-01 {
-  text-align: center;
+/* line 217, ../sass/mixins/_main.scss */
+.wrapper main #section-01 ul li {
+  margin-left: 20px;
 }
-/* line 221, ../sass/mixins/_main.scss */
+/* line 225, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list {
   margin: 10px 0;
 }
-/* line 224, ../sass/mixins/_main.scss */
+/* line 228, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li {
   position: relative;
   margin-bottom: 1em;
@@ -435,34 +484,41 @@ a {
   letter-spacing: 1px;
   cursor: pointer;
 }
+/* line 237, ../sass/mixins/_main.scss */
+.wrapper main #section-02 ul.jobs-list > li i {
+  font-size: 2.2em;
+  cursor: pointer;
+  float: right;
+  margin-right: 5px;
+}
 /* line 243, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li i:before {
   -webkit-transition: all ease-in-out 0.3s;
   -moz-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
-  position: absolute;
-  right: 10px;
-  font-size: 2.2em;
-  top: 15px;
-  cursor: pointer;
 }
-/* line 254, ../sass/mixins/_main.scss */
+/* line 256, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li.gray-bg {
   background: #F4F4F4;
 }
-/* line 256, ../sass/mixins/_main.scss */
+/* line 258, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li.gray-bg h3 {
   color: #4A4A4A;
   font-weight: 500;
 }
-/* line 263, ../sass/mixins/_main.scss */
-.wrapper main #section-02 ul.jobs-list > li > h3 {
+/* line 264, ../sass/mixins/_main.scss */
+.wrapper main #section-02 ul.jobs-list > li .job-title {
+  float: left;
+  display: inline-block;
+}
+/* line 267, ../sass/mixins/_main.scss */
+.wrapper main #section-02 ul.jobs-list > li .job-title > h3 {
   font-size: 1.5em;
   font-weight: 300;
   color: #777;
-  display: block;
+  margin-bottom: 10px;
 }
-/* line 270, ../sass/mixins/_main.scss */
+/* line 277, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li article {
   display: none;
   margin: 20px 0 10px;
@@ -471,23 +527,25 @@ a {
   color: #777;
   font-weight: 300;
   padding-right: 20px;
+  float: left;
+  width: 90%;
 }
-/* line 279, ../sass/mixins/_main.scss */
+/* line 288, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li article ol {
   list-style: initial;
   list-style-type: decimal;
   list-style-position: inside;
   margin: 10px 0;
 }
-/* line 285, ../sass/mixins/_main.scss */
+/* line 294, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li article ol li {
   color: #777;
 }
-/* line 290, ../sass/mixins/_main.scss */
+/* line 299, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li article strong {
   color: #777;
 }
-/* line 300, ../sass/mixins/_main.scss */
+/* line 309, ../sass/mixins/_main.scss */
 .wrapper a.join-btn {
   display: block;
   width: 150px;
@@ -500,23 +558,23 @@ a {
   font-weight: bold;
   font-size: 1.5em;
 }
-/* line 312, ../sass/mixins/_main.scss */
+/* line 321, ../sass/mixins/_main.scss */
 .wrapper a.join-btn:hover {
   background: #5a5a5a;
   color: #fff;
 }
-/* line 317, ../sass/mixins/_main.scss */
+/* line 326, ../sass/mixins/_main.scss */
 .wrapper footer {
   background: #F4F4F4;
   width: 100%;
   padding: 30px 0 40px;
   text-align: center;
 }
-/* line 323, ../sass/mixins/_main.scss */
+/* line 332, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav {
   margin: 0 1em 1em;
 }
-/* line 325, ../sass/mixins/_main.scss */
+/* line 334, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li {
   position: relative;
   display: inline-block;
@@ -527,7 +585,7 @@ a {
   -moz-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 335, ../sass/mixins/_main.scss */
+/* line 344, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li:before {
   margin-top: -6px;
   font-size: 18px;
@@ -536,25 +594,25 @@ a {
   top: 6px;
   left: 0;
 }
-/* line 345, ../sass/mixins/_main.scss */
+/* line 354, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li:hover, .wrapper footer ul.foot-nav li:hover a {
   color: #FF752B;
 }
-/* line 349, ../sass/mixins/_main.scss */
+/* line 358, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li a {
   color: #4A4A4A;
   font-size: 0.875em;
   padding-left: 20px;
   margin-top: -2px;
 }
-/* line 359, ../sass/mixins/_main.scss */
+/* line 368, ../sass/mixins/_main.scss */
 .wrapper footer small.copyright {
   font-size: 0.875em;
-  font-family: 'Raleway';
+  font-family: 'Ubuntu';
   color: #777;
 }
 
-/* line 368, ../sass/mixins/_main.scss */
+/* line 377, ../sass/mixins/_main.scss */
 #goTop {
   color: #4A4A4A;
   font-size: 1.2em;
@@ -573,7 +631,7 @@ a {
   -moz-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 386, ../sass/mixins/_main.scss */
+/* line 395, ../sass/mixins/_main.scss */
 #goTop:hover {
   background: #4A4A4A;
   color: #FFF;
@@ -680,7 +738,7 @@ a {
   }
   /* line 109, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title #nn-title h2 {
-    font-size: 2.5em;
+    font-size: 2.9em;
     padding: 0 0 5px 20px;
   }
   /* line 113, ../sass/mixins/_mediaQueries.scss */
@@ -693,31 +751,45 @@ a {
   }
   /* line 127, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 {
-    margin: 0 -1em;
+    margin: 0;
   }
-  /* line 131, ../sass/mixins/_mediaQueries.scss */
+  /* line 130, ../sass/mixins/_mediaQueries.scss */
+  .wrapper main #section-02 h2 {
+    line-height: 35px;
+  }
+  /* line 135, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li {
     padding: 10px;
     overflow: hidden;
   }
-  /* line 135, ../sass/mixins/_mediaQueries.scss */
-  .wrapper main #section-02 ul.jobs-list > li i:before {
+  /* line 139, ../sass/mixins/_mediaQueries.scss */
+  .wrapper main #section-02 ul.jobs-list > li i {
     font-size: 1.5em;
-    top: 9px;
+    margin-right: 0;
   }
-  /* line 140, ../sass/mixins/_mediaQueries.scss */
-  .wrapper main #section-02 ul.jobs-list > li > h3 {
-    font-size: 1.2em;
-    width: 90%;
-    line-height: 1.5em;
+  /* line 144, ../sass/mixins/_mediaQueries.scss */
+  .wrapper main #section-02 ul.jobs-list > li .job-title {
+    width: 85%;
   }
   /* line 146, ../sass/mixins/_mediaQueries.scss */
+  .wrapper main #section-02 ul.jobs-list > li .job-title > h3 {
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+  /* line 153, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li p {
     padding: 0;
   }
 }
+@media screen and (max-width: 360px) {
+  /* line 170, ../sass/mixins/_mediaQueries.scss */
+  .wrapper .head-banner .top-title #nn-title h2 {
+    font-size: 2.5em;
+    padding: 0;
+  }
+}
 @media screen and (min-width: 1001px) {
-  /* line 161, ../sass/mixins/_mediaQueries.scss */
+  /* line 183, ../sass/mixins/_mediaQueries.scss */
   .EZcareers-header nav > ul {
     display: block !important;
   }

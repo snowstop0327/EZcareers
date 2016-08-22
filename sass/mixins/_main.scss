@@ -124,7 +124,7 @@
         text-align: center;
         color: #FF752B;
         font-weight: 300;
-        font-family: "Raleway";
+        font-family: "Ubuntu";
         font-size: 1.5em;
 
         .text {
@@ -149,7 +149,7 @@
             margin-top: 200px;
             display: block;
             color: #FF752B;
-            font-family: "Raleway";
+            font-family: "Ubuntu";
 
           }
 
@@ -158,7 +158,7 @@
             font-size: 1.125em;
             display: block;
             margin-top: 5px;
-            font-family: 'Raleway';
+            font-family: 'Ubuntu';
           }
         }
 
@@ -178,10 +178,10 @@
 
         span {
           color: #ccc;
-          font-size: 1.125em;
+          font-size: 1.5em;
           display: block;
           margin-top: 5px;
-          font-family: 'Raleway';
+          font-family: 'Ubuntu';
         }
 
         #nn-title {
@@ -201,19 +201,23 @@
       h2 {
         font-size: 1.5em;
         color: #4A4A4A;
-        text-align: center;
+        // text-align: center;
         margin-bottom: 30px;
       }
 
-      p {
-        // padding-bottom: 20px;
-        line-height: 30px;
-
-      }
     }
 
     #section-01 {
-      text-align: center;
+      // text-align: center;
+      ul {
+        // padding-bottom: 20px;
+        line-height: 30px;
+        font-size: 1.1em;
+        list-style: inherit;
+        li {
+          margin-left: 20px;
+        }
+      }
     }
 
     #section-02 {
@@ -230,25 +234,23 @@
           letter-spacing: 1px;
           cursor: pointer;
 
-          // &:before {
-          //   -webkit-transition: all ease-in-out 0.3s;
-          //   -moz-transition: all ease-in-out 0.3s;
-          //   transition: all ease-in-out 0.3s;
-          //   position: absolute;
-          //   right: 10px;
-          //   font-size: 2.2em;
-          //   top: 15px;
-          // }
-
-          i:before {
-            -webkit-transition: all ease-in-out 0.3s;
-            -moz-transition: all ease-in-out 0.3s;
-            transition: all ease-in-out 0.3s;
-            position: absolute;
-            right: 10px;
+          i {
             font-size: 2.2em;
-            top: 15px;
             cursor: pointer;
+            float: right;
+            margin-right: 5px;
+
+            &:before {
+              -webkit-transition: all ease-in-out 0.3s;
+              -moz-transition: all ease-in-out 0.3s;
+              transition: all ease-in-out 0.3s;
+              // position: absolute;
+              // right: 10px;
+              // font-size: 2.2em;
+              // top: 15px;
+              // cursor: pointer;
+             
+            }
           }
 
           &.gray-bg {
@@ -259,13 +261,18 @@
             }
           
           }
-          
-          > h3 {
-            font-size: 1.5em;
-            font-weight: 300;
-            color: #777;
-            display: block;
-            
+          .job-title {
+              float: left;
+              display: inline-block;
+            > h3 {
+              font-size: 1.5em;
+              font-weight: 300;
+              color: #777;
+              // display: inline-block;
+              margin-bottom: 10px;
+              // width: 80%;
+              // float: left;
+            }
           }
           article {
             display: none;
@@ -275,6 +282,8 @@
             color: #777;
             font-weight: 300;
             padding-right: 20px;
+            float: left;
+            width: 90%;
 
             ol {
               list-style: initial;
@@ -358,7 +367,7 @@
 
     small.copyright {
       font-size: 0.875em;
-      font-family: 'Raleway';
+      font-family: 'Ubuntu';
       color: #777;
 
     }

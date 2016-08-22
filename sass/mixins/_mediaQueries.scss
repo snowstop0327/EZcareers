@@ -107,7 +107,7 @@
 				}
 				#nn-title {
 					h2 {
-						font-size: 2.5em;
+						font-size: 2.9em;
 						padding: 0 0 5px 20px;
 					}
 					&.down {
@@ -125,22 +125,29 @@
 				}
 			}
 			#section-02 {
-				margin: 0 -1em;
+				margin: 0;
+
+				h2 {
+					line-height: 35px;
+				}
 				
 				ul.jobs-list {
 					> li {
 						padding: 10px;
 						overflow: hidden;
 
-						i:before {
+						i {
 							font-size: 1.5em;
-							top:9px;
+							margin-right: 0;
 						}
 
-						> h3 {
-							font-size: 1.2em;
-							width: 90%;
-							line-height: 1.5em;
+						.job-title {
+							width: 85%;
+							> h3 {
+								font-size: 1.2em;
+								// width: 90%;
+								line-height: 1.5em;
+							}
 						}
 
 						p {
@@ -149,6 +156,21 @@
 
 					}
 
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 360px) { 
+	.wrapper {
+		.head-banner {
+			.top-title {
+				#nn-title {
+					h2 {
+						font-size: 2.5em;
+						padding: 0;
+					}
 				}
 			}
 		}
