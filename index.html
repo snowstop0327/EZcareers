@@ -26,6 +26,18 @@
 </head>
 
 <body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.7";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
     <!-- 導航欄位 開始-->
     <header class="EZcareers-header">
         <nav class="content clearfix" role="navigation">
@@ -36,10 +48,18 @@
             </div>
             <i class="mobile-nav-btn icon icon-three-bars"></i>
             <ul class="nav-bar">
-                <li class="icon icon-desktop"><a href="https://ezprice.com.tw">EZprice比價網</a></li>
-                <li class="icon icon-mobile"><a href="http://ezprice.com.tw/ezapp/?utm_source=ez-about">EZprice找便宜</a></li>
-                <li class="icon icon-graph"><a href="http://pricetrack.ezprice.com.tw/?utm_source=ez-about">價格監控</a></li>
-                <li class="icon icon-megaphone"><a href="https://news.ezprice.com.tw/">公關室</a></li>
+                <li>
+                    <a href="https://ezprice.com.tw">
+                        <i class="icon icon-desktop"></i>EZprice比價網</a>
+                </li>
+                <li><a href="http://ezprice.com.tw/ezapp/?utm_source=ez-about"><i class="icon icon-mobile"></i>EZprice找便宜</a>
+                </li>
+                <li>
+                    <a href="http://pricetrack.ezprice.com.tw/?utm_source=ez-about">
+                        <i class="icon icon-graph"></i>價格監控</a>
+                </li>
+                <li>
+                    <a href="https://news.ezprice.com.tw/"><i class="icon icon-megaphone"></i>公關室</a></li>
             </ul>
         </nav>
     </header>
@@ -83,13 +103,12 @@
                     <li class="clearfix">
                         <div class="clearfix">
                             <div class="job-title">
-                               <h3>產品經理PM / 企劃專員  </h3>
-                            <span>全職</span>
-                            <span>需求人數 :2人</span>
+                                <h3>產品經理PM / 企劃專員  </h3>
+                                <span>全職</span>
+                                <span>需求人數 :2人</span>
                             </div>
-                            <i class="the-btn icon icon-android-add"></i> 
+                            <i class="the-btn icon icon-android-add"></i>
                         </div>
-                        
                         <article>
                             <!--  <strong>職務性質 :</strong> 全職
                             <br>
@@ -124,7 +143,7 @@
                                 <span>全職</span>
                                 <span>需求人數 :1人</span>
                             </div>
-                        <i class="the-btn icon icon-android-add"></i>
+                            <i class="the-btn icon icon-android-add"></i>
                         </div>
                         <article>
                             <strong>職務說明</strong>
@@ -163,6 +182,26 @@
                 <li class="icon icon-megaphone"><a href="https://news.ezprice.com.tw/">公關室</a></li>
                 <li class="icon icon-facebook-square"><a href="https://www.facebook.com/EZprice.tw/?fref=ts">粉絲專頁</a></li>
             </ul> -->
+            <!-- Your share button code -->
+            <div class="share-btns" style="margin-bottom:20px;">
+                <div data-href="http://ezprice.com.tw/EZ_Careers.php" data-layout="button" data-mobile-iframe="true" class="fb-share-button fb_iframe_widget" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=113869198637480&amp;container_width=613&amp;href=http%3A%2F%2Fezprice.com.tw%2FEZ_Careers.php&amp;layout=button&amp;locale=zh_TW&amp;mobile_iframe=true&amp;sdk=joey" style="display:inline;">
+                <span style="vertical-align: bottom; width: 52px; height: 20px;"><iframe name="f1c74832259d338" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:share_button Facebook Social Plugin" src="https://www.facebook.com/v2.7/plugins/share_button.php?app_id=113869198637480&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FLJ9CfGDsgQ7.js%3Fversion%3D42%23cb%3Dfe599184d78ec8%26domain%3Ddevelopers.facebook.com%26origin%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Ff2447c2eb174cdc%26relation%3Dparent.parent&amp;container_width=613&amp;href=http%3A%2F%2Fezprice.com.tw%2FEZ_Careers.php&amp;layout=button&amp;locale=zh_TW&amp;mobile_iframe=true&amp;sdk=joey" style="border: none; visibility: visible; width: 52px; height: 20px;" class=""></iframe></span></div>
+                <!-- 將這個標記放在標頭中，或放在內文結尾標記前面。 -->
+                <script src="https://apis.google.com/js/platform.js" async defer>
+                {
+                    lang: 'zh-TW'
+                }
+                </script>
+                <!-- 在您要顯示「分享按鈕」的位置放上這個標記。 -->
+                <div class="g-plus" data-action="share" data-annotation="none" data-href="http://ezprice.com.tw/EZ_Careers.php"></div>
+                <span>
+                <script type="text/javascript" src="//media.line.me/js/line-button.js?v=20140411" ></script>
+                <script type="text/javascript">
+                new media_line_me.LineButton({"pc":false,"lang":"zh-hant","type":"a"});
+                </script>
+            </span>
+                <a href="http://line.naver.jp/R/msg/text/?LINE%E3%81%A7%E9%80%81%E3%82%8B%0D%0Ahttp%3A%2F%2Fline.naver.jp%2F"><img src="img/linebutton_84x20_zh-hant.png" alt="用LINE傳送" style="height:20px;" /></a>
+            </div>
             <small class="copyright">© 2016 EZprice Co., Ltd. All rights reserved.</small>
         </footer>
     </div>
