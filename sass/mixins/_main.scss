@@ -76,6 +76,11 @@
           padding-left: 23px;
           color: #E2E2E2;
           font-size: 1.125em;
+          i {
+            color: #E2E2E2;
+            font-size: 0.8em;
+            padding-right: 2px;
+          }
 
         }
 
@@ -329,8 +334,67 @@
     padding: 30px 0 40px;
     text-align: center;
 
+    .share-btns {
+      margin: 0 auto 20px;
+        a {
+          width: 60px;
+          padding: 0px 10px;
+          // color: #ccc;
+          background: #fff;
+          border: 1px solid #5a5a5a;
+          font-size: 1em;
+          border-radius: 2px; 
+          // height: 25px;
+          line-height: 25px;
+          margin-right: 10px;
+          // float: left;
+          display: inline-block;
+          -webkit-transition: all ease-in-out 0.3s;
+          -moz-transition: all ease-in-out 0.3s;
+          transition: all ease-in-out 0.3s;
+
+          &.fb-btn:before {
+            padding-top: 5px;
+            padding-right: 3px;
+            float: left;
+            color: #1875d1;
+          }
+
+          &:hover {
+            background: #5a5a5a;
+
+            span {
+              color: #fff;
+            }
+
+            svg.u7 {
+              fill:#fff;
+            }
+
+            &:before {
+              color: #fff;
+            }
+          }
+
+          span {
+            color: #666;
+            font-size: 14px;
+            line-height: 20px;
+          }
+          svg.u7 {
+            float: left;
+            padding-top:3px;
+            padding-right: 5px;
+            fill: #db4437;
+            width: 18px;
+            height: 18px;
+          }
+        }
+    }
+
     ul.foot-nav {
       margin: 0 1em 1em;
+
       li {
         position: relative;
         display: inline-block;
