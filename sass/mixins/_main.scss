@@ -30,6 +30,8 @@
 
   .EZcareers-logo {
     display: inline-block;
+    float: left;
+    width: 265px;
 
     a.EZlogo {
       display: inline-block;
@@ -129,7 +131,7 @@
         text-align: center;
         color: #FF752B;
         font-weight: 300;
-        font-family: "Ubuntu";
+        font-family: 'Ubuntu', sans-serif;
         font-size: 1.5em;
 
         .text {
@@ -154,7 +156,7 @@
             margin-top: 200px;
             display: block;
             color: #FF752B;
-            font-family: "Ubuntu";
+            font-family: 'Ubuntu', sans-serif;
 
           }
 
@@ -163,7 +165,7 @@
             font-size: 1.125em;
             display: block;
             margin-top: 5px;
-            font-family: 'Ubuntu';
+            font-family: 'Ubuntu', sans-serif;
           }
         }
 
@@ -186,7 +188,7 @@
           font-size: 1.5em;
           display: block;
           margin-top: 5px;
-          font-family: 'Ubuntu';
+          font-family: 'Ubuntu', sans-serif;
         }
 
         #nn-title {

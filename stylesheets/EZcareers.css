@@ -289,15 +289,17 @@ a {
 /* line 31, ../sass/mixins/_main.scss */
 .EZcareers-header .EZcareers-logo {
   display: inline-block;
+  float: left;
+  width: 265px;
 }
-/* line 34, ../sass/mixins/_main.scss */
+/* line 36, ../sass/mixins/_main.scss */
 .EZcareers-header .EZcareers-logo a.EZlogo {
   display: inline-block;
   width: 134px;
   height: 55px;
   background: url("../img/logo.png") no-repeat center;
 }
-/* line 41, ../sass/mixins/_main.scss */
+/* line 43, ../sass/mixins/_main.scss */
 .EZcareers-header .EZcareers-logo h1 {
   float: right;
   color: #FFF;
@@ -307,23 +309,23 @@ a {
   border-left: 1px solid #FFF;
   margin: 23px 0 0 18px;
 }
-/* line 52, ../sass/mixins/_main.scss */
+/* line 54, ../sass/mixins/_main.scss */
 .EZcareers-header nav {
   position: relative;
 }
-/* line 55, ../sass/mixins/_main.scss */
+/* line 57, ../sass/mixins/_main.scss */
 .EZcareers-header nav > ul {
   float: right;
   margin-top: 25px;
 }
-/* line 60, ../sass/mixins/_main.scss */
+/* line 62, ../sass/mixins/_main.scss */
 .EZcareers-header nav > ul li {
   position: relative;
   display: block;
   float: left;
   margin-right: 2em;
 }
-/* line 65, ../sass/mixins/_main.scss */
+/* line 67, ../sass/mixins/_main.scss */
 .EZcareers-header nav > ul li:before {
   margin-top: -6px;
   font-size: 18px;
@@ -333,23 +335,23 @@ a {
   left: 0;
   color: #E2E2E2;
 }
-/* line 75, ../sass/mixins/_main.scss */
+/* line 77, ../sass/mixins/_main.scss */
 .EZcareers-header nav > ul li a {
   padding-left: 23px;
   color: #E2E2E2;
   font-size: 1.125em;
 }
-/* line 79, ../sass/mixins/_main.scss */
+/* line 81, ../sass/mixins/_main.scss */
 .EZcareers-header nav > ul li a i {
   color: #E2E2E2;
   font-size: 0.8em;
   padding-right: 2px;
 }
-/* line 87, ../sass/mixins/_main.scss */
+/* line 89, ../sass/mixins/_main.scss */
 .EZcareers-header nav > ul li a:hover {
   color: #FFF;
 }
-/* line 93, ../sass/mixins/_main.scss */
+/* line 95, ../sass/mixins/_main.scss */
 .EZcareers-header nav .mobile-nav-btn {
   display: none;
   font-size: 2.5em;
@@ -361,17 +363,17 @@ a {
   color: #ccc;
 }
 
-/* line 107, ../sass/mixins/_main.scss */
+/* line 109, ../sass/mixins/_main.scss */
 .content {
   max-width: 1000px;
   margin: 0 auto;
 }
 
-/* line 112, ../sass/mixins/_main.scss */
+/* line 114, ../sass/mixins/_main.scss */
 .wrapper {
   position: relative;
 }
-/* line 115, ../sass/mixins/_main.scss */
+/* line 117, ../sass/mixins/_main.scss */
 .wrapper .head-banner {
   width: 100%;
   height: 600px;
@@ -379,7 +381,7 @@ a {
   background: #4A4A4A url("../img/EZcareers-banner.jpg") no-repeat center top;
   background-size: cover;
 }
-/* line 122, ../sass/mixins/_main.scss */
+/* line 124, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title {
   display: table-cell;
   overflow: hidden;
@@ -390,10 +392,10 @@ a {
   text-align: center;
   color: #FF752B;
   font-weight: 300;
-  font-family: "Ubuntu";
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1.5em;
 }
-/* line 135, ../sass/mixins/_main.scss */
+/* line 137, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title .text {
   fill: url(#p-fire);
   stroke-width: 8;
@@ -403,7 +405,7 @@ a {
   font-family: "Noto Sans T Chinese","Noto Sans TC","Microsoft JhengHei",helvetica,sans-serif;
   text-shadow: 2px 2px 10px;
 }
-/* line 146, ../sass/mixins/_main.scss */
+/* line 148, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title svg {
   position: absolute;
   width: 100%;
@@ -412,22 +414,22 @@ a {
   left: 0;
   font-size: 100%;
 }
-/* line 153, ../sass/mixins/_main.scss */
+/* line 155, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title svg small {
   margin-top: 200px;
   display: block;
   color: #FF752B;
-  font-family: "Ubuntu";
+  font-family: 'Ubuntu', sans-serif;
 }
-/* line 161, ../sass/mixins/_main.scss */
+/* line 163, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title svg span {
   color: #ccc;
   font-size: 1.125em;
   display: block;
   margin-top: 5px;
-  font-family: 'Ubuntu';
+  font-family: 'Ubuntu', sans-serif;
 }
-/* line 170, ../sass/mixins/_main.scss */
+/* line 172, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title h2 {
   fill: url(#p-fire);
   font-size: 4.5em;
@@ -435,52 +437,52 @@ a {
   padding: 20px 0 10px 50px;
   color: #FF752B;
 }
-/* line 178, ../sass/mixins/_main.scss */
+/* line 180, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title small {
   display: block;
   color: #FF752B;
 }
-/* line 184, ../sass/mixins/_main.scss */
+/* line 186, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title span {
   color: #ccc;
   font-size: 1.5em;
   display: block;
   margin-top: 5px;
-  font-family: 'Ubuntu';
+  font-family: 'Ubuntu', sans-serif;
 }
-/* line 193, ../sass/mixins/_main.scss */
+/* line 195, ../sass/mixins/_main.scss */
 .wrapper .head-banner .top-title #nn-title.down {
   margin-top: 150px;
 }
-/* line 200, ../sass/mixins/_main.scss */
+/* line 202, ../sass/mixins/_main.scss */
 .wrapper main {
   margin-bottom: 50px;
 }
-/* line 203, ../sass/mixins/_main.scss */
+/* line 205, ../sass/mixins/_main.scss */
 .wrapper main #section-01, .wrapper main #section-02 {
   padding: 3em 0 1em;
 }
-/* line 206, ../sass/mixins/_main.scss */
+/* line 208, ../sass/mixins/_main.scss */
 .wrapper main #section-01 h2, .wrapper main #section-02 h2 {
   font-size: 1.5em;
   color: #4A4A4A;
   margin-bottom: 30px;
 }
-/* line 217, ../sass/mixins/_main.scss */
+/* line 219, ../sass/mixins/_main.scss */
 .wrapper main #section-01 ul {
   line-height: 30px;
   font-size: 1.1em;
   list-style: inherit;
 }
-/* line 222, ../sass/mixins/_main.scss */
+/* line 224, ../sass/mixins/_main.scss */
 .wrapper main #section-01 ul li {
   margin-left: 20px;
 }
-/* line 230, ../sass/mixins/_main.scss */
+/* line 232, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list {
   margin: 10px 0;
 }
-/* line 233, ../sass/mixins/_main.scss */
+/* line 235, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li {
   position: relative;
   margin-bottom: 1em;
@@ -490,41 +492,41 @@ a {
   letter-spacing: 1px;
   cursor: pointer;
 }
-/* line 242, ../sass/mixins/_main.scss */
+/* line 244, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li i {
   font-size: 2.2em;
   cursor: pointer;
   float: right;
   margin-right: 5px;
 }
-/* line 248, ../sass/mixins/_main.scss */
+/* line 250, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li i:before {
   -webkit-transition: all ease-in-out 0.3s;
   -moz-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 261, ../sass/mixins/_main.scss */
+/* line 263, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li.gray-bg {
   background: #F4F4F4;
 }
-/* line 263, ../sass/mixins/_main.scss */
+/* line 265, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li.gray-bg h3 {
   color: #4A4A4A;
   font-weight: 500;
 }
-/* line 269, ../sass/mixins/_main.scss */
+/* line 271, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li .job-title {
   float: left;
   display: inline-block;
 }
-/* line 272, ../sass/mixins/_main.scss */
+/* line 274, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li .job-title > h3 {
   font-size: 1.5em;
   font-weight: 300;
   color: #777;
   margin-bottom: 10px;
 }
-/* line 282, ../sass/mixins/_main.scss */
+/* line 284, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li article {
   display: none;
   margin: 20px 0 10px;
@@ -536,22 +538,22 @@ a {
   float: left;
   width: 90%;
 }
-/* line 293, ../sass/mixins/_main.scss */
+/* line 295, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li article ol {
   list-style: initial;
   list-style-type: decimal;
   list-style-position: inside;
   margin: 10px 0;
 }
-/* line 299, ../sass/mixins/_main.scss */
+/* line 301, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li article ol li {
   color: #777;
 }
-/* line 304, ../sass/mixins/_main.scss */
+/* line 306, ../sass/mixins/_main.scss */
 .wrapper main #section-02 ul.jobs-list > li article strong {
   color: #777;
 }
-/* line 314, ../sass/mixins/_main.scss */
+/* line 316, ../sass/mixins/_main.scss */
 .wrapper a.join-btn {
   display: block;
   width: 150px;
@@ -564,23 +566,23 @@ a {
   font-weight: bold;
   font-size: 1.5em;
 }
-/* line 326, ../sass/mixins/_main.scss */
+/* line 328, ../sass/mixins/_main.scss */
 .wrapper a.join-btn:hover {
   background: #5a5a5a;
   color: #fff;
 }
-/* line 331, ../sass/mixins/_main.scss */
+/* line 333, ../sass/mixins/_main.scss */
 .wrapper footer {
   background: #F4F4F4;
   width: 100%;
   padding: 30px 0 40px;
   text-align: center;
 }
-/* line 337, ../sass/mixins/_main.scss */
+/* line 339, ../sass/mixins/_main.scss */
 .wrapper footer .share-btns {
   margin: 0 auto 20px;
 }
-/* line 339, ../sass/mixins/_main.scss */
+/* line 341, ../sass/mixins/_main.scss */
 .wrapper footer .share-btns a {
   width: 60px;
   padding: 0px 10px;
@@ -595,36 +597,36 @@ a {
   -moz-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 356, ../sass/mixins/_main.scss */
+/* line 358, ../sass/mixins/_main.scss */
 .wrapper footer .share-btns a.fb-btn:before {
   padding-top: 5px;
   padding-right: 3px;
   float: left;
   color: #1875d1;
 }
-/* line 363, ../sass/mixins/_main.scss */
+/* line 365, ../sass/mixins/_main.scss */
 .wrapper footer .share-btns a:hover {
   background: #5a5a5a;
 }
-/* line 366, ../sass/mixins/_main.scss */
+/* line 368, ../sass/mixins/_main.scss */
 .wrapper footer .share-btns a:hover span {
   color: #fff;
 }
-/* line 370, ../sass/mixins/_main.scss */
+/* line 372, ../sass/mixins/_main.scss */
 .wrapper footer .share-btns a:hover svg.u7 {
   fill: #fff;
 }
-/* line 374, ../sass/mixins/_main.scss */
+/* line 376, ../sass/mixins/_main.scss */
 .wrapper footer .share-btns a:hover:before {
   color: #fff;
 }
-/* line 379, ../sass/mixins/_main.scss */
+/* line 381, ../sass/mixins/_main.scss */
 .wrapper footer .share-btns a span {
   color: #666;
   font-size: 14px;
   line-height: 20px;
 }
-/* line 384, ../sass/mixins/_main.scss */
+/* line 386, ../sass/mixins/_main.scss */
 .wrapper footer .share-btns a svg.u7 {
   float: left;
   padding-top: 3px;
@@ -633,11 +635,11 @@ a {
   width: 18px;
   height: 18px;
 }
-/* line 395, ../sass/mixins/_main.scss */
+/* line 397, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav {
   margin: 0 1em 1em;
 }
-/* line 398, ../sass/mixins/_main.scss */
+/* line 400, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li {
   position: relative;
   display: inline-block;
@@ -648,7 +650,7 @@ a {
   -moz-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 408, ../sass/mixins/_main.scss */
+/* line 410, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li:before {
   margin-top: -6px;
   font-size: 18px;
@@ -657,25 +659,25 @@ a {
   top: 6px;
   left: 0;
 }
-/* line 418, ../sass/mixins/_main.scss */
+/* line 420, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li:hover, .wrapper footer ul.foot-nav li:hover a {
   color: #FF752B;
 }
-/* line 422, ../sass/mixins/_main.scss */
+/* line 424, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li a {
   color: #4A4A4A;
   font-size: 0.875em;
   padding-left: 20px;
   margin-top: -2px;
 }
-/* line 432, ../sass/mixins/_main.scss */
+/* line 434, ../sass/mixins/_main.scss */
 .wrapper footer small.copyright {
   font-size: 0.875em;
   font-family: 'Ubuntu';
   color: #777;
 }
 
-/* line 441, ../sass/mixins/_main.scss */
+/* line 443, ../sass/mixins/_main.scss */
 #goTop {
   color: #4A4A4A;
   font-size: 1.2em;
@@ -694,7 +696,7 @@ a {
   -moz-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 459, ../sass/mixins/_main.scss */
+/* line 461, ../sass/mixins/_main.scss */
 #goTop:hover {
   background: #4A4A4A;
   color: #FFF;
