@@ -629,17 +629,17 @@ a {
 /* line 386, ../sass/mixins/_main.scss */
 .wrapper footer .share-btns a svg.u7 {
   float: left;
-  padding-top: 3px;
+  margin-top: 3px;
   padding-right: 5px;
   fill: #db4437;
   width: 18px;
   height: 18px;
 }
-/* line 397, ../sass/mixins/_main.scss */
+/* line 398, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav {
   margin: 0 1em 1em;
 }
-/* line 400, ../sass/mixins/_main.scss */
+/* line 401, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li {
   position: relative;
   display: inline-block;
@@ -650,7 +650,7 @@ a {
   -moz-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 410, ../sass/mixins/_main.scss */
+/* line 411, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li:before {
   margin-top: -6px;
   font-size: 18px;
@@ -659,25 +659,25 @@ a {
   top: 6px;
   left: 0;
 }
-/* line 420, ../sass/mixins/_main.scss */
+/* line 421, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li:hover, .wrapper footer ul.foot-nav li:hover a {
   color: #FF752B;
 }
-/* line 424, ../sass/mixins/_main.scss */
+/* line 425, ../sass/mixins/_main.scss */
 .wrapper footer ul.foot-nav li a {
   color: #4A4A4A;
   font-size: 0.875em;
   padding-left: 20px;
   margin-top: -2px;
 }
-/* line 434, ../sass/mixins/_main.scss */
+/* line 435, ../sass/mixins/_main.scss */
 .wrapper footer small.copyright {
   font-size: 0.875em;
   font-family: 'Ubuntu', sans-serif;
   color: #777;
 }
 
-/* line 443, ../sass/mixins/_main.scss */
+/* line 444, ../sass/mixins/_main.scss */
 #goTop {
   color: #4A4A4A;
   font-size: 1.2em;
@@ -696,7 +696,7 @@ a {
   -moz-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
-/* line 461, ../sass/mixins/_main.scss */
+/* line 462, ../sass/mixins/_main.scss */
 #goTop:hover {
   background: #4A4A4A;
   color: #FFF;
