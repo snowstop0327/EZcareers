@@ -673,7 +673,7 @@ a {
 /* line 434, ../sass/mixins/_main.scss */
 .wrapper footer small.copyright {
   font-size: 0.875em;
-  font-family: 'Ubuntu';
+  font-family: 'Ubuntu', sans-serif;
   color: #777;
 }
 
