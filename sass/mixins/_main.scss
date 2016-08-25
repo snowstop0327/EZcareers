@@ -361,10 +361,11 @@
             float: left;
             color: #1875d1;
           }
-          img.line-btn {
+          .line-btn {
             float: left;
             width: 17px;
             margin: 4px 4px 4px 0; 
+            fill:#00C200;
           }
 
           &:hover {
@@ -374,7 +375,7 @@
               color: #fff;
             }
 
-            svg.u7 {
+            svg.u7, svg.line-btn {
               fill:#fff;
             }
 
