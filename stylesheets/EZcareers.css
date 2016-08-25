@@ -290,7 +290,7 @@ a {
 .EZcareers-header .EZcareers-logo {
   display: inline-block;
   float: left;
-  width: 265px;
+  min-width: 265px;
 }
 /* line 36, ../sass/mixins/_main.scss */
 .EZcareers-header .EZcareers-logo a.EZlogo {
@@ -775,103 +775,104 @@ a {
   /* line 79, ../sass/mixins/_mediaQueries.scss */
   .EZcareers-header .EZcareers-logo {
     margin: 10px 0;
+    min-width: 150px;
   }
-  /* line 81, ../sass/mixins/_mediaQueries.scss */
+  /* line 82, ../sass/mixins/_mediaQueries.scss */
   .EZcareers-header .EZcareers-logo a.EZlogo {
     width: 90px;
     height: 35px;
     background-size: contain;
   }
-  /* line 86, ../sass/mixins/_mediaQueries.scss */
+  /* line 87, ../sass/mixins/_mediaQueries.scss */
   .EZcareers-header .EZcareers-logo h1 {
     font-size: 1.2em;
     margin: 10px 0 0 10px;
     padding-left: 10px;
   }
-  /* line 94, ../sass/mixins/_mediaQueries.scss */
+  /* line 95, ../sass/mixins/_mediaQueries.scss */
   .EZcareers-header nav > ul {
     margin-top: 5px;
   }
 
-  /* line 101, ../sass/mixins/_mediaQueries.scss */
+  /* line 102, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner {
     height: 350px;
   }
-  /* line 104, ../sass/mixins/_mediaQueries.scss */
+  /* line 105, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title .text {
     font-size: 3.5em;
   }
-  /* line 109, ../sass/mixins/_mediaQueries.scss */
+  /* line 110, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title #nn-title h2 {
     font-size: 2.9em;
     padding: 0 0 5px 20px;
   }
-  /* line 113, ../sass/mixins/_mediaQueries.scss */
+  /* line 114, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title #nn-title.down {
     margin-top: 85px;
   }
-  /* line 123, ../sass/mixins/_mediaQueries.scss */
+  /* line 124, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-01 h2, .wrapper main #section-02 h2 {
     margin-bottom: 15px;
   }
-  /* line 127, ../sass/mixins/_mediaQueries.scss */
+  /* line 128, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 {
     margin: 0;
   }
-  /* line 130, ../sass/mixins/_mediaQueries.scss */
+  /* line 131, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 h2 {
     line-height: 35px;
   }
-  /* line 135, ../sass/mixins/_mediaQueries.scss */
+  /* line 136, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li {
     padding: 10px;
     overflow: hidden;
   }
-  /* line 139, ../sass/mixins/_mediaQueries.scss */
+  /* line 140, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li i {
     font-size: 1.5em;
     margin-right: 0;
   }
-  /* line 144, ../sass/mixins/_mediaQueries.scss */
+  /* line 145, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li .job-title {
     width: 85%;
   }
-  /* line 146, ../sass/mixins/_mediaQueries.scss */
+  /* line 147, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li .job-title > h3 {
     font-size: 1.2em;
     line-height: 1.5em;
   }
-  /* line 153, ../sass/mixins/_mediaQueries.scss */
+  /* line 154, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li p {
     padding: 0;
   }
 }
 @media screen and (max-width: 360px) {
-  /* line 167, ../sass/mixins/_mediaQueries.scss */
+  /* line 168, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner {
     height: 280px;
   }
-  /* line 170, ../sass/mixins/_mediaQueries.scss */
+  /* line 171, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title #nn-title {
     margin-top: 80px;
   }
-  /* line 172, ../sass/mixins/_mediaQueries.scss */
+  /* line 173, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title #nn-title h2 {
     font-size: 2.5em;
     padding: 0;
   }
-  /* line 180, ../sass/mixins/_mediaQueries.scss */
+  /* line 181, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 {
     padding-top: 1em;
   }
-  /* line 184, ../sass/mixins/_mediaQueries.scss */
+  /* line 185, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li article {
     font-size: 1.2em;
     margin-bottom: 20px;
   }
 }
 @media screen and (min-width: 1001px) {
-  /* line 198, ../sass/mixins/_mediaQueries.scss */
+  /* line 199, ../sass/mixins/_mediaQueries.scss */
   .EZcareers-header nav > ul {
     display: block !important;
   }
