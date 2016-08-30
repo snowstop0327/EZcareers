@@ -555,7 +555,7 @@ a {
   width: 60px;
   padding: 0px 10px;
   background: #fff;
-  /* border: 1px solid #5a5a5a; */
+  border: 1px solid #5a5a5a;
   font-size: 1em;
   border-radius: 2px;
   line-height: 25px;
@@ -816,38 +816,39 @@ a {
   .wrapper main #section-02 ul.jobs-list > li .job-title > h3 {
     font-size: 1.2em;
     line-height: 1.5em;
+    font-weight: bold;
   }
-  /* line 154, ../sass/mixins/_mediaQueries.scss */
+  /* line 155, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li p {
     padding: 0;
   }
 }
 @media screen and (max-width: 360px) {
-  /* line 168, ../sass/mixins/_mediaQueries.scss */
+  /* line 169, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner {
     height: 280px;
   }
-  /* line 171, ../sass/mixins/_mediaQueries.scss */
+  /* line 172, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title #nn-title {
     margin-top: 80px;
   }
-  /* line 173, ../sass/mixins/_mediaQueries.scss */
+  /* line 174, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title #nn-title h2 {
     font-size: 2.5em;
     padding: 0;
   }
-  /* line 181, ../sass/mixins/_mediaQueries.scss */
+  /* line 182, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 {
     padding-top: 1em;
   }
-  /* line 185, ../sass/mixins/_mediaQueries.scss */
+  /* line 186, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li article {
     font-size: 1.2em;
     margin-bottom: 20px;
   }
 }
 @media screen and (min-width: 1001px) {
-  /* line 199, ../sass/mixins/_mediaQueries.scss */
+  /* line 200, ../sass/mixins/_mediaQueries.scss */
   .EZcareers-header nav > ul {
     display: block !important;
   }
