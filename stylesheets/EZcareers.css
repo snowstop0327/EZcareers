@@ -772,83 +772,85 @@ a {
   /* line 102, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner {
     height: 350px;
+    background: #4A4A4A url("../img/EZcareers-banner-M.jpg") no-repeat center top;
+    background-size: cover;
   }
-  /* line 105, ../sass/mixins/_mediaQueries.scss */
+  /* line 107, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title .text {
     font-size: 3.5em;
   }
-  /* line 110, ../sass/mixins/_mediaQueries.scss */
+  /* line 112, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title #nn-title h2 {
     font-size: 2.9em;
     padding: 0 0 5px 20px;
   }
-  /* line 114, ../sass/mixins/_mediaQueries.scss */
+  /* line 116, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title #nn-title.down {
     margin-top: 85px;
   }
-  /* line 124, ../sass/mixins/_mediaQueries.scss */
+  /* line 126, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-01 h2, .wrapper main #section-02 h2 {
     margin-bottom: 15px;
   }
-  /* line 128, ../sass/mixins/_mediaQueries.scss */
+  /* line 130, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 {
     margin: 0;
   }
-  /* line 131, ../sass/mixins/_mediaQueries.scss */
+  /* line 133, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 h2 {
     line-height: 35px;
   }
-  /* line 136, ../sass/mixins/_mediaQueries.scss */
+  /* line 138, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li {
     padding: 10px;
     overflow: hidden;
   }
-  /* line 140, ../sass/mixins/_mediaQueries.scss */
+  /* line 142, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li i {
     font-size: 1.5em;
     margin-right: 0;
   }
-  /* line 145, ../sass/mixins/_mediaQueries.scss */
+  /* line 147, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li .job-title {
     width: 85%;
   }
-  /* line 147, ../sass/mixins/_mediaQueries.scss */
+  /* line 149, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li .job-title > h3 {
     font-size: 1.2em;
     line-height: 1.5em;
     font-weight: bold;
   }
-  /* line 155, ../sass/mixins/_mediaQueries.scss */
+  /* line 157, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li p {
     padding: 0;
   }
 }
 @media screen and (max-width: 360px) {
-  /* line 169, ../sass/mixins/_mediaQueries.scss */
+  /* line 171, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner {
     height: 280px;
   }
-  /* line 172, ../sass/mixins/_mediaQueries.scss */
+  /* line 174, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title #nn-title {
     margin-top: 80px;
   }
-  /* line 174, ../sass/mixins/_mediaQueries.scss */
+  /* line 176, ../sass/mixins/_mediaQueries.scss */
   .wrapper .head-banner .top-title #nn-title h2 {
     font-size: 2.5em;
     padding: 0;
   }
-  /* line 182, ../sass/mixins/_mediaQueries.scss */
+  /* line 184, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 {
     padding-top: 1em;
   }
-  /* line 186, ../sass/mixins/_mediaQueries.scss */
+  /* line 188, ../sass/mixins/_mediaQueries.scss */
   .wrapper main #section-02 ul.jobs-list > li article {
     font-size: 1.2em;
     margin-bottom: 20px;
   }
 }
 @media screen and (min-width: 1001px) {
-  /* line 200, ../sass/mixins/_mediaQueries.scss */
+  /* line 202, ../sass/mixins/_mediaQueries.scss */
   .EZcareers-header nav > ul {
     display: block !important;
   }
