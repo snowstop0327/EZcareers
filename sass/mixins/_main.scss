@@ -86,8 +86,11 @@
 
         }
 
-        a:hover {
+        &:hover {
           color: #FFF;
+          i {
+            color: #FFF;
+          }
         }
 
       }
