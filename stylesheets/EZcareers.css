@@ -316,11 +316,11 @@ a {
   padding-right: 2px;
 }
 /* line 89, ../sass/mixins/_main.scss */
-.EZcareers-header nav > ul li:hover {
+.EZcareers-header nav > ul li a:hover {
   color: #FFF;
 }
 /* line 91, ../sass/mixins/_main.scss */
-.EZcareers-header nav > ul li:hover i {
+.EZcareers-header nav > ul li a:hover i {
   color: #FFF;
 }
 /* line 98, ../sass/mixins/_main.scss */
