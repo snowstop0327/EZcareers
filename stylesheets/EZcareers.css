@@ -8,7 +8,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   border: 0;
   font-size: 100%;
-  font-family: "Noto Sans T Chinese","Noto Sans TC","Microsoft JhengHei",helvetica,sans-serif;
+  font-family: Helvetica,Arial,"Noto Sans T Chinese","Noto Sans TC","WenQuanYi Zen Hei","Microsoft JhengHei",sans-serif;
   vertical-align: baseline;
   color: #9B9B9B;
 }
@@ -374,7 +374,7 @@ a {
   stroke-opacity: .5;
   font-size: 56px;
   font-weight: 700;
-  font-family: "Noto Sans T Chinese","Noto Sans TC","Microsoft JhengHei",helvetica,sans-serif;
+  font-family: Helvetica,Arial,"Noto Sans T Chinese","Noto Sans TC","WenQuanYi Zen Hei","Microsoft JhengHei",sans-serif;
   text-shadow: 2px 2px 10px;
 }
 /* line 151, ../sass/mixins/_main.scss */
